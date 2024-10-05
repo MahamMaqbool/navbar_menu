@@ -7,7 +7,7 @@ import Link from "next/link";
  function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null)
   return (
-    <div className="min-h-screen bg-slate-600">
+    <div className="min-h-screen bg-gray-400">
 <div className={cn("fixed top-10 left-0 right-0 max-w-2xl mx-auto z-50 text-center")}>
 
         
