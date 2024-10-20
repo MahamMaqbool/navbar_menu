@@ -1,4 +1,5 @@
-"use client";
+
+"use client"; 
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -27,8 +28,9 @@ export const MenuItem = ({
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
+        whileHover={{ scale: 1.1 }} // Scale effect on hover
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
+        className="cursor-pointer text-white hover:opacity-[0.9] dark:text-white"
       >
         {item}
       </motion.p>
@@ -70,7 +72,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="bg-black relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] shadow-input flex justify-center space-x-4 px-8 py-6 bold"
     >
       {children}
     </nav>
@@ -89,13 +91,13 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="flex space-x-2 group hover:scale-105 transition-transform">
       <Image
         src={src}
         width={140}
         height={70}
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
+        className="flex-shrink-0 rounded-md shadow-2xl transition-transform duration-300 group-hover:shadow-lg"
       />
       <div>
         <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
@@ -113,7 +115,7 @@ export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black "
+      className="text-neutral-700 dark:text-neutral-200 hover:text-black transition-colors duration-200"
     >
       {children}
     </Link>

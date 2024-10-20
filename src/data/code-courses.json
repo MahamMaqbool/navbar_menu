@@ -1,0 +1,108 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Web Development",
+      "description": "Learn the basics of HTML, CSS, and JavaScript.",
+      "duration": "4 weeks",
+      "slug" : "Learn More",
+      "level": "Beginner",
+      "category": "Web Development",
+      "instructor": "Jane Doe",
+      "price": 99.99,
+      "rating": 4.5,
+      "isFeatured" : true
+    },
+    {
+      "id": 2,
+      "title": "React for Beginners",
+      "description": "Build interactive user interfaces using React.js.",
+      "duration": "6 weeks",
+      "slug" : "Learn More",
+      "level": "Intermediate",
+      "category": "Web Development",
+      "instructor": "John Smith",
+      "price": 149.99,
+      "rating": 4.8,
+        "isFeatured" : false
+    },
+    {
+      "id": 3,
+      "title": "Building Responsive Websites",
+      "description": "Learn how to create responsive and mobile-friendly websites.",
+      "duration": "5 weeks",
+      "slug" : "Learn More",
+      "level": "Intermediate",
+      "category": "Web Development",
+      "instructor": "Alice Johnson",
+      "price": 129.99,
+        "isFeatured" : true,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Web Development Bootcamp",
+      "description": "Become a full-stack developer by learning front-end and back-end technologies.",
+      "duration": "12 weeks",
+      "slug" : "Learn More",
+      "level": "Advanced",
+      "category": "Web Development",
+      "instructor": "Emily Davis",
+      "price": 499.99,
+        "isFeatured" : false,
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "title": "iOS App Development with Swift",
+      "description": "Create stunning iOS applications using Swift and Xcode.",
+      "slug" : "Learn More",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "category": "App Development",
+      "instructor": "Michael Brown",
+      "price": 199.99,
+        "isFeatured" : true,
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "title": "Android App Development for Beginners",
+      "description": "Learn to build Android apps with Java and Android Studio.",
+      "slug" : "Learn More",
+      "duration": "7 weeks",
+      "level": "Beginner",
+      "category": "App Development",
+      "instructor": "Sarah Wilson",
+      "price": 179.99,
+        "isFeatured" : true,
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "title": "Cross-Platform Mobile Development with Flutter",
+      "description": "Build natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "duration": "10 weeks",
+      "slug" : "Learn More",
+      "level": "Advanced",
+      "category": "App Development",
+      "instructor": "David Garcia",
+      "price": 299.99,
+      "rating": 4.8,
+        "isFeatured" : true
+    },
+    {
+      "id": 8,
+      "title": "Web Development with Node.js",
+      "description": "Learn how to build server-side applications using Node.js and Express.",
+      "duration": "6 weeks",
+      "slug" : "Learn More",
+      "level": "Intermediate",
+      "category": "Web Development",
+      "instructor": "Lisa Martinez",
+      "price": 159.99,
+        "isFeatured" : true,
+      "rating": 4.7
+    }
+  ]
+}
